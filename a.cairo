@@ -17,7 +17,7 @@ func count() -> (res: felt) {
 @external
 func increment() {
     let (current_count) = count.read()
-    count.write(current_count + 1)
+    count.write(current_count + 19)
 }
 
 @external
