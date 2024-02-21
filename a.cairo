@@ -2,7 +2,7 @@
 
 
 %lang starknet
-//3
+//3a
 @contract_interface
 namespace ICounter {
     func get_count() -> (res: felt).
