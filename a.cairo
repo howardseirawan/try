@@ -5,7 +5,7 @@
 //3a
 @contract_interface
 namespace ICounter {
-    func get_count() -> (res: felt).a
+    func get_count() -> (res: felt).aa
     func increment().
     func decrement().
 end
